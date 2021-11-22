@@ -21,9 +21,9 @@ namespace AIN_Detyra4
         static void Main(string[] args)
         {
             GenInitSolution();
-            Console.WriteLine(string.Join(", ", Solution));
+            Console.WriteLine(string.Join("; ", Solution));
             MutateSolution();
-            Console.WriteLine(string.Join(", ", Solution));
+            Console.WriteLine(string.Join("; ", Solution));
         }
         private static void GenInitSolution()
         {
